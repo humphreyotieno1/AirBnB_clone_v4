@@ -10,11 +10,13 @@
     <link rel="icon" href="../static/images/icon.png?{{ cache_id }}" type="image/png">
     <title>AirBnb Clone</title>
   </head>
+
   <body>
     <header>
       <div class="logo">
       </div>
     </header>
+
     <div class="container">
       <section class="filters">
 	<div class="locations">
@@ -33,6 +35,7 @@
 	    {% endfor %}
 	  </ul>
 	</div>
+
 	<div class="amenities">
           <h3>Amenities</h3>
           <h4>&nbsp;</h4>
@@ -42,10 +45,12 @@
 	    {% endfor %}
           </ul>
 	</div>
+
 	<button>
 	  Search
 	</button>
       </section>
+
       <section class="places">
 	<h1>Places</h1>
 	{% for place in places.values()|sort(attribute='name') %}
@@ -80,6 +85,7 @@
 	{% endfor %}
       </section>
     </div>
+
     <footer>
       <p>
 	Holberton School
