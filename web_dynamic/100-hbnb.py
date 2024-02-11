@@ -3,21 +3,20 @@
 dropdown menus and rental listings"""
 from flask import Flask, render_template
 from models import storage
-import uuid
-app = Flask('web_dynamic')
+app = Flask('web_flask')
 app.url_map.strict_slashes = False
 
 
-@app.route('/100-hbnb')
+@app.route('/hbnb')
 def display_hbnb():
     """Generate page with popdown menu of states/cities"""
     states = storage.all('State')
     amenities = storage.all('Amenity')
-    cache_id = uuid.uuid4()
+    places = storage.all('Place')
     return render_template('100-hbnb.html',
                            states=states,
                            amenities=amenities,
-                           cache_id=cache_id)
+                           places=places)
 
 
 @app.teardown_appcontext

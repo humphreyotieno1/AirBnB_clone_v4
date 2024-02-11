@@ -30,7 +30,7 @@
 .places > article > h2 {
     font-size: 30px;
     margin: 0 20% 0 0;
-    padding: 5px;
+    align-self: center;
 }
 
 .price_by_night {
