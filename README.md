@@ -71,7 +71,8 @@ No known bugs at this time.
 
 - Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 - Thomas Wang - [Github](https://github.com/thomaspwang) / [Twitter](https://twitter.com/thpwang)
-
+- Humphrey Otieno - [Github](https://github.com/humphreyotieno1)
+- Immaculate Owuor - [Github](https://github.com/MsOwuor)
 ###### Version 3
 
 - Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
